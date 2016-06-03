@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+
+	<head>
+
+		<meta charset="utf-8" />
+
+		<title>Smartbud - building social network</title>
+
+		<meta name="keywords" content="Smartbud, смартбуд, социальная строительная сеть, строительный портал, строительный форум, строительные материалы" />
+
+		<meta name="description" content="Основной идеологией SMARTBUD является улучшенный логистический подход на каждом из этапов строительства, что непременно приводит к оптимизации затрачиваемых усилий, времени , экономии денежных средств, а также средств, затрачиваемых на рекламу торгующих организаций и частных лиц." />
+
+		<meta name="Author" content="Golovchuk Ivan [www.citrusdev.com.ua]" />
+
+
+
+		<!-- mobile settings -->
+
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+
+
+		<!-- CORE CSS -->
+
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+
+
+		<!-- THEME CSS -->
+
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+
+
+		<!-- PAGE LEVEL SCRIPTS -->
+
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+
+		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+
+	</head>
+
+
+
+	<!--
+
+		BODY
+
+	-->
+
+	<body class="smoothscroll enable-animation">
+
+
+
+		<!-- wrapper -->
+
+		<div id="wrapper">
+
+
+
+			<!-- 
+
+				AVAILABLE HEADER CLASSES
+
+
+
+				Default nav height: 96px
+
+				.header-md 		= 70px nav height
+
+				.header-sm 		= 60px nav height
+
+
+
+				.noborder 		= remove bottom border (only with transparent use)
+
+				.transparent	= transparent header
+
+				.translucent	= translucent header
+
+				.sticky			= sticky header
+
+				.static			= static header
+
+				.dark			= dark header
+
+				.bottom			= header on bottom
+
+				
+
+				shadow-before-1 = shadow 1 header top
+
+				shadow-after-1 	= shadow 1 header bottom
+
+				shadow-before-2 = shadow 2 header top
+
+				shadow-after-2 	= shadow 2 header bottom
+
+				shadow-before-3 = shadow 3 header top
+
+				shadow-after-3 	= shadow 3 header bottom
+
+
+
+				.clearfix		= required for mobile menu, do not remove!
+
+
+
+				Example Usage:  class="clearfix sticky header-sm transparent noborder"
+
+			-->
+
+			<div id="header" class="sticky transparent noborder clearfix">
+
+
+
+				<!-- TOP NAV -->
+
+				<header id="topNav">
+
+					<div class="full-container">
+
+
+
+						<!-- Mobile Menu Button -->
+
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+
+							<i class="fa fa-bars"></i>
+
+						</button>
+
+
+
+						<!-- BUTTONS -->
+
+						<ul class="pull-right nav nav-pills nav-second-main">
+
+
+
+							<!-- SEARCH -->
+
+							<!--<li class="search">
+
+								<a href="javascript:;">
+
+									<i class="fa fa-search"></i>
+
+								</a>
+
+								<div class="search-box">
+
+									<form action="page-search-result-1.html" method="get">
+
+										<div class="input-group">
+
+											<input type="text" name="src" placeholder="Search" class="form-control" />
+
+											<span class="input-group-btn">
+
+												<button class="btn btn-primary" type="submit">Search</button>
+
+											</span>
+
+										</div>
+
+									</form>
+
+								</div> 
+
+							</li>-->
+
+							<!-- /SEARCH -->
+
+
+
+							
+
+
+
+						</ul>
+
+						<!-- /BUTTONS -->
+
+
+
+
+
+						<!-- Logo -->
+
+						<a class="logo pull-left" href="index.html">
+
+							<img src="assets/images/logo_light.png" alt="" /> <!-- light logo -->
+
+							<img src="assets/images/logo_dark.png" alt="" /> <!-- dark logo -->
+
+						</a>
+
+
+
+						<!-- 
+
+							Top Nav 
+
+							
+
+							AVAILABLE CLASSES:
+
+							submenu-dark = dark sub menu
+
+						-->
+
+						<div class="navbar-collapse pull-right nav-main-collapse collapse submenu-dark">
+
+							<nav class="nav-main">
+
+
+
+								<!--
+
+									NOTE
+
+									
+
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+
+									Direct Link Example: 
+
+
+
+									<li>
+
+										<a href="#">HOME</a>
+
+									</li>
+
+								-->
+
+								<ul id="topMain" class="nav nav-pills nav-main">
+
+									<li class="dropdown active"><!-- HOME -->
+
+										<a href="http://smartbud.in.ua/">
+
+											ГЛАВНАЯ
+
+										</a>
+
+								            
+
+									</li>
+
+                                    <li class="dropdown active"><!-- HOME -->
+
+										<a href="about-us.html">
+
+											О НАС
+
+										</a>
+
+								            
+
+									</li>
+
+                                    <li class="dropdown active"><!-- HOME -->
+
+										<a href="faq.html">
+
+											ПОМОЩЬ
+
+										</a>
+
+								            
+
+									</li>
+
+                                    <li class="dropdown active"><!-- HOME -->
+
+										<a href="contact.html">
+
+											КОНТАКТЫ
+
+										</a>
+
+								            
+
+									</li>
+
+									
+
+								</ul>
+
+
+
+							</nav>
+
+						</div>
+
+
+
+					</div>
+
+				</header>
+
+				<!-- /Top Nav -->
+
+
+
+			</div>
+
+
+
+
+
+
+
+
+
+			<!-- SLIDER -->
+
+			<section id="slider" class="fullheight" style="background:url('assets/images/demo/particles_bg.jpg')">
+
+				<span class="overlay dark-2"><!-- dark overlay [0 to 9 opacity] --></span>
+
+
+
+				<canvas id="canvas-particle" data-rgb="156,217,249"><!-- CANVAS PARTICLES --></canvas>
+
+
+
+				<div class="display-table">
+
+					<div class="display-table-cell vertical-align-middle">
+
+						
+
+						<div class="container text-center">
+
+							
+
+							<h1 class="nomargin wow fadeInUp" data-wow-delay="0.4s">
+
+								WE ARE 
+
+								<!--
+
+									TEXT ROTATOR
+
+									data-animation="fade|flip|flipCube|flipUp|spin"
+
+								-->
+
+								<span class="rotate " data-animation="fade" data-speed="1500">
+
+									SMARTBUD, GEOLOCATION SERVICE, BUILDING SOCIAL NETWORK
+
+								</span>
+
+							</h1>
+
+
+
+							<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">
+
+								Больше <span class="countTo" data-speed="4000">10000</span> компаний предоставляющих строительные товары и услуги! 
+
+								
+
+							</p>
+
+							
+
+							<a class="btn btn-default btn-lg" href="http://smartbud.in.ua/Account/Register">Зарегистрироваться</a>
+
+
+
+						</div>
+
+
+
+					</div>
+
+				</div>
+
+
+
+			</section>
+
+			<!-- /SLIDER -->
+
+
+
+
+
+
+
+			<!-- Welcome -->
+
+			<section>
+
+				<div class="container">
+
+
+
+					<div class="text-center">
+
+						<h1>Приветствуем Вас на сайте <span>SMARTBUD!</span></h1>
+
+						<h2 class="col-sm-10 col-sm-offset-1 nomargin-bottom weight-400">SMARTBUD поможет Вам найти архитектурное бюро, строительные материалы, технику, рабочих и много другого... В общем - постройте свое жилье в несколько кликов</h2>
+
+					</div>
+
+
+
+				</div>
+
+			</section>
+
+			<!-- Welcome -->
+
+
+
+
+
+
+
+			<!-- -->
+
+			<section>
+
+				<div class="container">
+
+
+
+					<div class="row">
+
+					
+
+						<div class="col-md-5 col-sm-5">
+
+							<a class="image-hover lightbox thumbnail" href="https://www.youtube.com/watch?v=XwVqSxQLvHA" data-plugin-options='{"type":"iframe"}'>
+
+								<span class="image-hover-icon image-hover-light"><!-- image-hover-light | image-hover-dark -->
+
+									<i class="fa fa-vimeo-square"><!-- video icon --></i>
+
+								</span>
+
+								<img class="img-responsive" src="assets/images/video_pick.png" alt="smartbud">
+
+							</a>
+
+						</div>
+
+
+
+						<div class="col-md-7 col-sm-7">
+
+
+
+							<header class="margin-bottom-60">
+
+								<h2>Социальная строительная сеть SMARTBUD</h2>
+
+								<p class="lead font-lato">Незаменимая вещь для каждого человека!</p>
+
+							</header>
+
+
+
+							<p>Основной идеологией SMARTBUD является улучшенный логистический подход на каждом из этапов строительства, что непременно приводит к оптимизации затрачиваемых усилий, времени , экономии денежных средств, а также средств, затрачиваемых на рекламу торгующих организаций и частных лиц.</p>
+
+							<p>Данный сервис полезен абсолютно всем, кто хоть как-то связан со строительным процессом в целом.</p>
+
+                            <p>В любом случае, кем бы вы не были в сфере строительства, какие бы услуги и товары не предлагали и искали, знайте, Вам на портал SMARTBUD.in.ua. Который сможет не только оказать Вам помощь, но и бесплатно произвести рекламу. Потому что каждый знает, что пользователи SMARTBUD.in.ua - это актуально, это выгодно и это быстро.</p>
+
+
+
+							<a class="btn btn-default btn-lg size-15 margin-top-30 lightbox" href="https://www.youtube.com/watch?v=XwVqSxQLvHA" data-plugin-options='{"type":"iframe"}'>Посмотреть презентацию</a>
+
+
+
+						</div>
+
+
+
+					</div>
+
+
+
+				</div>
+
+			</section>
+
+			<!-- / -->
+
+
+
+
+
+
+
+			<!-- -->
+
+			<section class="alternate">
+
+				<div class="container">
+
+
+
+					<div class="row">
+
+
+
+						<!-- toggle -->
+
+						<div class="col-md-4 col-sm-4">
+
+							<div class="toggle toggle-accordion toggle-transparent toggle-bordered-full">
+
+
+
+								<div class="toggle active">
+
+									<label>ВРЕМЯ</label>
+
+									<div class="toggle-content">
+
+										<p>Не нужно тратить время на поиски и сравнение цен товаров/услуг</p>
+
+									</div>
+
+								</div>
+
+
+
+								<div class="toggle">
+
+									<label>КАЧЕСТВО</label>
+
+									<div class="toggle-content">
+
+										<p>Проверка качества заказываемого товара/услуги</p>
+
+									</div>
+
+								</div>
+
+
+
+								<div class="toggle">
+
+									<label>ЭКОНОМИЯ</label>
+
+									<div class="toggle-content">
+
+										<p>Экономить покупая у производителя, а не посредника</p>
+
+									</div>
+
+								</div>
+								
+								<div class="toggle">
+
+									<label>СКИДКА</label>
+
+									<div class="toggle-content">
+
+										<p>Скидка от компаний – партнёров SMARTBUD</p>
+
+									</div>
+
+								</div>
+
+								<div class="toggle">
+
+									<label>ОБЗОР ТОВАРА/УСЛУГИ</label>
+
+									<div class="toggle-content">
+
+										<p>Краткий видео обзор товара/услуги</p>
+
+									</div>
+
+								</div>
+
+
+							</div>
+
+						</div>
+
+						<!-- /toggle -->
+
+
+
+						<!-- skills -->
+
+						<div class="col-md-4 col-sm-4">
+
+							<h4>Для поставщика</h4>
+
+
+
+							<label>
+
+								<span class="pull-right">60%</span>
+
+								Увеличение продаж по выгодному местоположению на
+
+
+							</label>
+
+							<div class="progress progress-xxs">
+
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; min-width: 2em;"></div>
+
+							</div>
+
+
+
+							<label>
+
+								<span class="pull-right">88%</span>
+
+								Экономить на рекламе до 
+
+
+							</label>
+
+							<div class="progress progress-xxs">
+
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 88%; min-width: 2em;"></div>
+
+							</div>
+
+
+
+							<label>
+
+								<span class="pull-right">93%</span>
+
+								Повышение позиций сайта в поисковых системах 
+
+							</label>
+
+							<div class="progress progress-xxs">
+
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 93%; min-width: 2em;"></div>
+
+							</div>
+
+
+
+							<label>
+
+								<span class="pull-right">77%</span>
+
+								Привлечение покупателей по видео обзору товара/услуги
+
+							</label>
+
+							<div class="progress progress-xxs">
+
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 77%; min-width: 2em;"></div>
+
+							</div>
+
+
+
+							<label>
+
+								<span class="pull-right">99%</span>
+
+								Покупка товара из-за выгодного ценового предложения
+
+							</label>
+
+							<div class="progress progress-xxs">
+
+								<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 99%; min-width: 2em;"></div>
+
+							</div>
+
+
+
+						</div>
+
+						<!-- /skills -->
+						
+						<!-- toggle -->
+
+						<div class="col-md-4 col-sm-4">
+
+							<div class="toggle toggle-accordion toggle-transparent toggle-bordered-full">
+
+
+
+								<div class="toggle active">
+
+									<label>ИНФОРМАЦИЯ</label>
+
+									<div class="toggle-content">
+
+										<p>Получение информации о новых тендерах, о проводимых акциях и новых товарах в строительстве</p>
+
+									</div>
+
+								</div>
+
+
+
+								<div class="toggle">
+
+									<label>ОПОВЕЩЕНИЕ</label>
+
+									<div class="toggle-content">
+
+										<p>Получение сообщения по запросу товара/услуги (e’mail, sms, viber...)</p>
+
+									</div>
+
+								</div>
+
+
+
+								<div class="toggle">
+
+									<label>БАЗА</label>
+
+									<div class="toggle-content">
+
+										<p>Информация о покупателях в его сфере деятельности</p>
+
+									</div>
+
+								</div>
+								
+							</div>
+
+						</div>
+
+						<!-- /toggle -->
+
+					</div>
+
+
+
+				</div>
+
+			</section>
+
+			<!-- / -->
+
+
+
+
+
+
+
+			<!-- Services
+
+			<section>
+
+				<div class="container">
+
+
+
+					<div class="row">
+
+
+
+						<div class="col-sm-6 col-md-4 col-lg-4">
+
+
+
+							<div class="box-icon box-icon-left">
+
+								<a class="box-icon-title" href="#">
+
+									<i class="fa fa-tablet"></i>
+
+									<h2>FULLY REPOSNIVE</h2>
+
+								</a>
+
+								<p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
+
+							</div>
+
+
+
+						</div>
+
+
+
+						<div class="col-sm-6 col-md-4 col-lg-4">
+
+
+
+							<div class="box-icon box-icon-left">
+
+								<a class="box-icon-title" href="#">
+
+									<i class="et-document"></i>
+
+									<h2>RTL SUPPORT</h2>
+
+								</a>
+
+								<p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
+
+							</div>
+
+
+
+						</div>
+
+
+
+						<div class="col-sm-6 col-md-4 col-lg-4">
+
+
+
+							<div class="box-icon box-icon-left">
+
+								<a class="box-icon-title" href="#">
+
+									<i class="et-basket"></i>
+
+									<h2>MOBILE COMPATIBILE</h2>
+
+								</a>
+
+								<p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
+
+							</div>
+
+
+
+						</div>
+
+
+
+						<div class="col-sm-6 col-md-4 col-lg-4">
+
+
+
+							<div class="box-icon box-icon-left">
+
+								<a class="box-icon-title" href="#">
+
+									<i class="et-briefcase"></i>
+
+									<h2>CLEAN CODE</h2>
+
+								</a>
+
+								<p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
+
+							</div>
+
+
+
+						</div>
+
+
+
+						<div class="col-sm-6 col-md-4 col-lg-4">
+
+
+
+							<div class="box-icon box-icon-left">
+
+								<a class="box-icon-title" href="#">
+
+									<i class="et-megaphone"></i>
+
+									<h2>PREMIUM SLIDERS</h2>
+
+								</a>
+
+								<p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
+
+							</div>
+
+
+
+						</div>
+
+
+
+						<div class="col-sm-6 col-md-4 col-lg-4">
+
+
+
+							<div class="box-icon box-icon-left">
+
+								<a class="box-icon-title" href="#">
+
+									<i class="et-flag"></i>
+
+									<h2>SIMPLE TO USE</h2>
+
+								</a>
+
+								<p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
+
+							</div>
+
+
+
+						</div>
+
+
+
+					</div>
+
+
+
+				</div>
+
+			</section>
+
+			 /Services -->
+
+
+
+
+
+
+
+			<!-- CALLOUT -->
+
+			<div class="alert alert-transparent bordered-bottom nomargin">
+
+				<div class="container">
+
+
+
+					<div class="row">
+
+
+
+						<div class="col-md-9 col-sm-12"><!-- left text -->
+
+							<h3>Зарегистрируйся сейчас и получи скидку 10% на товары/услуги от партнеров SMARTBUD!</h3>
+
+							<p class="font-lato weight-300 size-20 nomargin-bottom">
+
+								Мы дорожим каждым Вашим посещением и делаем все возможное чтобы Вам было хорошо!
+
+							</p>
+
+						</div><!-- /left text -->
+
+
+
+						
+
+						<div class="col-md-3 col-sm-12 text-right"><!-- right btn -->
+
+							<a href="http://smartbud.in.ua/Account/Register" rel="nofollow" target="_blank" class="btn btn-primary btn-lg">ЗАРЕГИСТРИРОВАТЬСЯ</a>
+
+						</div><!-- /right btn -->
+
+
+
+					</div>
+
+
+
+				</div>
+
+			</div>
+
+			<!-- /CALLOUT -->
+
+
+
+
+
+
+
+			<!-- FOOTER -->
+
+			<footer id="footer">
+
+				<div class="container">
+
+
+
+					<div class="row">
+
+						
+
+						<div class="col-md-3">
+
+							<!-- Footer Logo -->
+
+							<img class="footer-logo" src="assets/images/logo_light.png" alt="Smartbud" />
+
+
+
+							<!-- Small Description -->
+
+							<p>Строить стало легче!</p>
+
+
+
+							<!-- Contact Address -->
+
+							<address>
+
+								<ul class="list-unstyled">
+
+									<li class="footer-sprite address">
+
+										
+
+										ул. С. Скляренко, Киев<br>
+
+										Украина<br>
+
+									</li>
+
+									<li class="footer-sprite phone">
+
+										Phone: +380445802214
+
+									</li>
+
+									<li class="footer-sprite email">
+
+										<a href="mailto:info@smartbud.in.ua">info@smartbud.in.ua</a>
+
+									</li>
+
+								</ul>
+
+							</address>
+
+							<!-- /Contact Address -->
+
+
+
+						</div>
+
+
+
+						<div class="col-md-3">
+
+
+
+							<!-- Latest Blog Post
+
+							<h4 class="letter-spacing-1">LATEST NEWS</h4>
+
+							<ul class="footer-posts list-unstyled">
+
+								<li>
+
+									<a href="#">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue</a>
+
+									<small>29 June 2015</small>
+
+								</li>
+
+								<li>
+
+									<a href="#">Nullam id dolor id nibh ultricies</a>
+
+									<small>29 June 2015</small>
+
+								</li>
+
+								<li>
+
+									<a href="#">Duis mollis, est non commodo luctus</a>
+
+									<small>29 June 2015</small>
+
+								</li>
+
+							</ul>
+
+							 /Latest Blog Post -->
+
+
+
+						</div>
+
+
+
+						<div class="col-md-2">
+
+
+
+							<!-- Links -->
+
+							<h4 class="letter-spacing-1">SMARTBUD</h4>
+
+							<ul class="footer-links list-unstyled">
+
+								<li><a href="#">Главная</a></li>
+
+								<li><a href="#">О нас</a></li>
+
+								<li><a href="#">Помощь</a></li>
+
+								<li><a href="#">Контакты</a></li>
+
+								<li><a href="#">Наши клиенты</a></li>
+
+								<li><a href="#">Гид по сайту</a></li>
+
+								
+
+							</ul>
+
+							<!-- /Links -->
+
+
+
+						</div>
+
+
+
+						<div class="col-md-4">
+
+
+
+							<!-- Newsletter Form -->
+
+							<h4 class="letter-spacing-1">Подписаться</h4>
+
+							<p>Subscribe to Our Newsletter to get Important News &amp; Offers</p>
+
+
+
+							<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+
+								<div class="input-group">
+
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+
+									<input type="email" id="email" name="email" class="form-control required" placeholder="Введите Ваш Email">
+
+									<span class="input-group-btn">
+
+										<button class="btn btn-success" type="submit">Подписаться</button>
+
+									</span>
+
+								</div>
+
+							</form>
+
+							<!-- /Newsletter Form -->
+
+
+
+							<!-- Social Icons -->
+
+							<div class="margin-top-20">
+
+								<a href="https://www.facebook.com/smartbud.ua/" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
+
+
+
+									<i class="icon-facebook"></i>
+
+									<i class="icon-facebook"></i>
+
+								</a>
+
+
+
+								<a href="https://twitter.com/TM_SMARTBUD" class="social-icon social-icon-border social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="Twitter">
+
+									<i class="icon-twitter"></i>
+
+									<i class="icon-twitter"></i>
+
+								</a>
+
+
+
+								<a href="https://plus.google.com/u/2/+SmartbudInUak" class="social-icon social-icon-border social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="Google plus">
+
+									<i class="icon-gplus"></i>
+
+									<i class="icon-gplus"></i>
+
+								</a>
+
+
+
+								<a href="https://www.linkedin.com/company/smartbud" class="social-icon social-icon-border social-linkedin pull-left" data-toggle="tooltip" data-placement="top" title="Linkedin">
+
+									<i class="icon-linkedin"></i>
+
+									<i class="icon-linkedin"></i>
+
+								</a>
+
+								<!--
+
+								<a href="#" class="social-icon social-icon-border social-rss pull-left" data-toggle="tooltip" data-placement="top" title="Rss">
+
+									<i class="icon-rss"></i>
+
+									<i class="icon-rss"></i>
+
+								</a>
+
+								-->
+
+							</div>
+
+							<!-- /Social Icons -->
+
+
+
+						</div>
+
+
+
+					</div>
+
+
+
+				</div>
+
+
+
+				<div class="copyright">
+
+					<div class="container">
+
+						<ul class="pull-right nomargin list-inline mobile-block">
+
+							<li><a href="#">Terms &amp; Conditions</a></li>
+
+							<li>&bull;</li>
+
+							<li><a href="#">Privacy</a></li>
+
+						</ul>
+
+						&copy; All Rights Reserved, TM SMARTBUD
+
+					</div>
+
+				</div>
+
+			</footer>
+
+			<!-- /FOOTER -->
+
+
+
+		</div>
+
+		<!-- /wrapper -->
+
+
+
+
+
+		<!-- SCROLL TO TOP -->
+
+		<a href="#" id="toTop"></a>
+
+
+
+
+
+		<!-- PRELOADER -->
+
+		<div id="preloader">
+
+			<div class="inner">
+
+				<span class="loader"></span>
+
+			</div>
+
+		</div><!-- /PRELOADER -->
+
+
+
+
+
+		<!-- JAVASCRIPT FILES -->
+
+		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+
+
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+
+
+
+		<!-- PARTICLE EFFECT -->
+
+		<script type="text/javascript" src="assets/plugins/effects/canvas.particles.js"></script>
+
+	</body>
+
+</html>
